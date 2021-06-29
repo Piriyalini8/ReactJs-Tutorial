@@ -23,13 +23,13 @@ class App extends Component {
       </Greet>
       <Greet name="Diana" heroName="Wonder woman"/> */}
       {/* <MyApp/> */}
-      {/* <Welcome name="Bruce" heroName="Batman"/>
+      <Welcome name="Bruce" heroName="Batman"/>
       <Welcome name="Clark" heroName="Super man"/>
-      <Welcome name="Diana" heroName="Wonder woman"/> */}
+      <Welcome name="Diana" heroName="Wonder woman"/>
       {/* <Hello/> */}
 
       {/* <Message/> */}
-      <Counter/>
+      {/* <Counter/> */}
     </div>
   );
   }
