@@ -1,7 +1,9 @@
 import React,{Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import ClassClick from './components/ClassClick';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 //default export
 // import MyApp from './components/Greet';
 import Greet from './components/Greet';
@@ -23,13 +25,15 @@ class App extends Component {
       </Greet>
       <Greet name="Diana" heroName="Wonder woman"/> */}
       {/* <MyApp/> */}
-      <Welcome name="Bruce" heroName="Batman"/>
+      {/* <Welcome name="Bruce" heroName="Batman"/>
       <Welcome name="Clark" heroName="Super man"/>
-      <Welcome name="Diana" heroName="Wonder woman"/>
+      <Welcome name="Diana" heroName="Wonder woman"/> */}
       {/* <Hello/> */}
 
       {/* <Message/> */}
       {/* <Counter/> */}
+      <FunctionClick/>
+      <ClassClick/>
     </div>
   );
   }
