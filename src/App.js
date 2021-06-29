@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
 //default export
 // import MyApp from './components/Greet';
 import Greet from './components/Greet';
@@ -27,7 +28,8 @@ class App extends Component {
       <Welcome name="Diana" heroName="Wonder woman"/> */}
       {/* <Hello/> */}
 
-      <Message/>
+      {/* <Message/> */}
+      <Counter/>
     </div>
   );
   }
