@@ -3,12 +3,14 @@ import React,{Component} from 'react';
 import './App.css';
 import ClassClick from './components/ClassClick';
 import Counter from './components/Counter';
+import EventBind from './components/EventBind';
 import FunctionClick from './components/FunctionClick';
 //default export
 // import MyApp from './components/Greet';
 import Greet from './components/Greet';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import ParentComponent from './components/ParentComponent';
 import Welcome from './components/Welcome';
 //name export- this is the must to export with same name 
 // import {Greet} from './components/Greet';
@@ -32,8 +34,10 @@ class App extends Component {
 
       {/* <Message/> */}
       {/* <Counter/> */}
-      <FunctionClick/>
-      <ClassClick/>
+      {/* <FunctionClick/> */}
+      {/* <ClassClick/> */}
+      {/* <EventBind/> */}
+      <ParentComponent/>
     </div>
   );
   }
