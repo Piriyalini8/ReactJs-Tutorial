@@ -1,19 +1,24 @@
 import React,{Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import ClassClick from './components/ClassClick';
-import Counter from './components/Counter';
-import EventBind from './components/EventBind';
-import FunctionClick from './components/FunctionClick';
-//default export
 // import MyApp from './components/Greet';
 import Greet from './components/Greet';
+import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
-import NameList from './components/NameList';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
-import Welcome from './components/Welcome';
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css';
+import styles from './appStyles.module.css';  //import css module
+
+
 //name export- this is the must to export with same name 
 // import {Greet} from './components/Greet';
 
@@ -41,7 +46,11 @@ class App extends Component {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      {/* <Stylesheet primary={true}/> */}
+      <Inline/>
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
     </div>
   );
   }
