@@ -11,6 +11,7 @@ import Greet from './components/Greet';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 import Welcome from './components/Welcome';
 //name export- this is the must to export with same name 
 // import {Greet} from './components/Greet';
@@ -37,7 +38,8 @@ class App extends Component {
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
       {/* <EventBind/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <UserGreeting/>
     </div>
   );
   }
