@@ -17,6 +17,7 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';  //import css module
+import Form from './components/Form';
 
 
 //name export- this is the must to export with same name 
@@ -48,9 +49,10 @@ class App extends Component {
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
       {/* <Stylesheet primary={true}/> */}
-      <Inline/>
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      {/* <Inline/> */}
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      <Form/>
     </div>
   );
   }
